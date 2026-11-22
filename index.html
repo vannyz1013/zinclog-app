@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-gx82q/WpQ9OBOFlb6cuS6P6uPkaYsQrIjadsGqnRC54='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://whaifxqzmagbavnnrnga.supabase.co wss://whaifxqzmagbavnnrnga.supabase.co; object-src 'none'; base-uri 'none'; form-action 'self'" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ZincLog - manage, document and track your academic projects." />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>ZincLog</title>
+    <script>
+      // Apply the saved theme before first paint (no flash). Storage may be blocked.
+      try {
+        var t = localStorage.getItem('acadex.theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="./assets/index-UUUxZpvc.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-QfrsAtV6.css">
+  </head>
+  <body>
+    <div id="app"><div class="boot" role="status"><span class="spinner"></span><span>Loading ZincLog…</span></div></div>
+    <noscript>ZincLog needs JavaScript enabled.</noscript>
+  </body>
+</html>
